@@ -1,14 +1,28 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Solvea",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4B50F3",
+    "light": "#9189E8",
+    "dark": "#2A2F9B"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/SOLVEA_LOGO+WORDMARK.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -66,27 +80,28 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Documentation",
+        "pages": [
+          "documentation/welcome",
+          {
+            "group": "Get started",
+            "pages": [
+              "documentation/get-started/untitled-page"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog"
+      },
+      {
+        "tab": "Academy"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/logo/light.svg",
   "navbar": {
     "links": [
       {
