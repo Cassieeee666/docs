@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Solvea",
   "colors": {
-    "primary": "#F07AF9",
-    "light": "#F8B6FC",
-    "dark": "#C24BD9"
+    "primary": "#5E51EF",
+    "light": "#E6E4FF",
+    "dark": "#5E51EF"
   },
   "favicon": "/images/SOLVEA_LOGO+WORDMARK.svg",
   "navigation": {
