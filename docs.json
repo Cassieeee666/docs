@@ -7,7 +7,10 @@
     "light": "#E6E4FF",
     "dark": "#5E51EF"
   },
-  "favicon": "/images/SOLVEA_LOGO+WORDMARK.svg",
+  "favicon": {
+    "light": "/images/SOLVEA_LOGO+WORDMARK.svg",
+    "dark": "/images/SOLVEA_LOGO+WORDMARK.svg"
+  },
   "navigation": {
     "global": {
       "anchors": [
@@ -101,7 +104,10 @@
       }
     ]
   },
-  "logo": "/images/SOLVEA_LOGO+WORDMARK.svg",
+  "logo": {
+    "light": "/images/SOLVEA_LOGO+WORDMARK.svg",
+    "dark": "/images/SOLVEA_LOGO+WORDMARK.svg"
+  },
   "navbar": {
     "links": [
       {
