@@ -97,7 +97,31 @@
           },
           {
             "group": "Build",
-            "pages": []
+            "pages": [
+              {
+                "group": "Agent",
+                "pages": [
+                  "documentation/build/agent/agent-overview",
+                  {
+                    "group": "Create an Agent",
+                    "pages": [
+                      "documentation/build/agent/create-an-agent/use-ai-to-generate",
+                      "documentation/build/agent/create-an-agent/untitled-page"
+                    ]
+                  },
+                  "documentation/build/agent/edit-agent-profile",
+                  "documentation/build/agent/set-up-agent-skills"
+                ]
+              },
+              {
+                "group": "Skill",
+                "pages": []
+              },
+              {
+                "group": "Train & Test",
+                "pages": []
+              }
+            ]
           },
           {
             "group": "Learn",
