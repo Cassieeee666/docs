@@ -15,11 +15,6 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
           "anchor": "Blog",
           "icon": "newspaper",
           "href": "https://mintlify.com/blog"
@@ -129,10 +124,10 @@
                   {
                     "group": "Configure Skills",
                     "pages": [
-                      "documentation/build/skill/configure-skills/livechat-skill",
-                      "documentation/build/skill/configure-skills/inbound-voice-skill",
                       "documentation/build/skill/configure-skills/write-a-skill-prompt",
-                      "documentation/build/skill/configure-skills/email-skill"
+                      "documentation/build/skill/configure-skills/email-skill",
+                      "documentation/build/skill/configure-skills/livechat-skill",
+                      "documentation/build/skill/configure-skills/inbound-voice-skill"
                     ]
                   }
                 ]
@@ -140,7 +135,10 @@
               {
                 "group": "Train & Test",
                 "icon": "arrows-repeat",
-                "pages": []
+                "pages": [
+                  "documentation/build/train-and-test/train",
+                  "documentation/build/train-and-test/test"
+                ]
               }
             ]
           },
