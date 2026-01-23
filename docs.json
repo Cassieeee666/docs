@@ -193,6 +193,12 @@
                   "documentation/deploy/tools/google-calendar",
                   "documentation/deploy/tools/logistics-tracking"
                 ]
+              },
+              {
+                "group": "E-commerce Platform",
+                "pages": [
+                  "documentation/deploy/e-commerce-platform/shopify"
+                ]
               }
             ]
           },
