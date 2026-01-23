@@ -87,12 +87,12 @@
       {
         "tab": "Documentation",
         "pages": [
-          "documentation/welcome",
+          "welcome",
           {
             "group": "Get started",
             "pages": [
-              "documentation/get-started/untitled-page",
-              "documentation/get-started/untitled-page-1"
+              "introduction",
+              "quick-start"
             ]
           },
           {
