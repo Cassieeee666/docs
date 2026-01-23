@@ -201,7 +201,11 @@
           },
           {
             "group": "Analytics",
-            "pages": []
+            "pages": [
+              "documentation/analytics/analytics-overview",
+              "documentation/analytics/statistics",
+              "documentation/analytics/topic-insights"
+            ]
           }
         ]
       },
