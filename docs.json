@@ -100,6 +100,7 @@
             "pages": [
               {
                 "group": "Agent",
+                "icon": "user-headset",
                 "pages": [
                   "documentation/build/agent/agent-overview",
                   {
@@ -115,10 +116,30 @@
               },
               {
                 "group": "Skill",
-                "pages": []
+                "icon": "wrench",
+                "pages": [
+                  "documentation/build/skill/skill-overview",
+                  {
+                    "group": "Create a Skill",
+                    "pages": [
+                      "documentation/build/skill/create-a-skill/choose-from-skill-library",
+                      "documentation/build/skill/create-a-skill/create-a-skill-from-scratch"
+                    ]
+                  },
+                  {
+                    "group": "Configure Skills",
+                    "pages": [
+                      "documentation/build/skill/configure-skills/livechat-skill",
+                      "documentation/build/skill/configure-skills/inbound-voice-skill",
+                      "documentation/build/skill/configure-skills/write-a-skill-prompt",
+                      "documentation/build/skill/configure-skills/email-skill"
+                    ]
+                  }
+                ]
               },
               {
                 "group": "Train & Test",
+                "icon": "arrows-repeat",
                 "pages": []
               }
             ]
