@@ -144,7 +144,10 @@
           },
           {
             "group": "Learn",
-            "pages": []
+            "pages": [
+              "documentation/learn/manage-knowledge",
+              "documentation/learn/knowledge-overview"
+            ]
           },
           {
             "group": "Deploy",
