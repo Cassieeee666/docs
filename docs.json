@@ -150,7 +150,9 @@
               {
                 "group": "Add Knowledge",
                 "pages": [
-                  "documentation/learn/add-knowledge/add-knowledge-sources"
+                  "documentation/learn/add-knowledge/add-knowledge-sources",
+                  "documentation/learn/add-knowledge/sync-from-e-commerce-platforms",
+                  "documentation/learn/add-knowledge/sync-from-help-desk"
                 ]
               }
             ]
