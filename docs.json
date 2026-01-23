@@ -145,8 +145,14 @@
           {
             "group": "Learn",
             "pages": [
+              "documentation/learn/knowledge-overview",
               "documentation/learn/manage-knowledge",
-              "documentation/learn/knowledge-overview"
+              {
+                "group": "Add Knowledge",
+                "pages": [
+                  "documentation/learn/add-knowledge/add-knowledge-sources"
+                ]
+              }
             ]
           },
           {
