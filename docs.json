@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Solvea",
   "colors": {
-    "primary": "#5E51EF",
+    "primary": "#766ce5",
     "light": "#E6E4FF",
-    "dark": "#5E51EF"
+    "dark": "#2a2a2a"
   },
   "favicon": {
     "light": "/images/SOLVEA_LOGO+WORDMARK.svg",
@@ -132,12 +132,5 @@
      "cursor",
      "vscode"
    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
