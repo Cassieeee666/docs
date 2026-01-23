@@ -95,7 +95,6 @@
             "pages": [
               {
                 "group": "Agent",
-                "icon": "user-headset",
                 "pages": [
                   "documentation/build/agent/agent-overview",
                   {
@@ -111,7 +110,6 @@
               },
               {
                 "group": "Skill",
-                "icon": "wrench",
                 "pages": [
                   "documentation/build/skill/skill-overview",
                   {
@@ -134,7 +132,6 @@
               },
               {
                 "group": "Train & Test",
-                "icon": "arrows-repeat",
                 "pages": [
                   "documentation/build/train-and-test/train",
                   "documentation/build/train-and-test/test"
