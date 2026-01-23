@@ -182,12 +182,17 @@
                       "documentation/deploy/channels/phone-and-sms/twilio",
                       "documentation/deploy/channels/phone-and-sms/sip"
                     ]
-                  }
+                  },
+                  "documentation/deploy/channels/email"
                 ]
               },
               {
                 "group": "Tools",
-                "pages": []
+                "pages": [
+                  "documentation/deploy/tools/logistics-tracking",
+                  "documentation/deploy/tools/google-calendar",
+                  "documentation/deploy/tools/google-sheet"
+                ]
               }
             ]
           },
