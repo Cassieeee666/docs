@@ -159,7 +159,37 @@
           },
           {
             "group": "Deploy",
-            "pages": []
+            "pages": [
+              {
+                "group": "Channels",
+                "pages": [
+                  {
+                    "group": "Livechat",
+                    "pages": [
+                      {
+                        "group": "Configuration",
+                        "pages": [
+                          "documentation/deploy/channels/livechat/configuration/appearance-and-personalization",
+                          "documentation/deploy/channels/livechat/configuration/trigger-configuration"
+                        ]
+                      },
+                      "documentation/deploy/channels/livechat/install-and-lauch-livechat"
+                    ]
+                  },
+                  {
+                    "group": "Phone&SMS",
+                    "pages": [
+                      "documentation/deploy/channels/phone-and-sms/twilio",
+                      "documentation/deploy/channels/phone-and-sms/sip"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Tools",
+                "pages": []
+              }
+            ]
           },
           {
             "group": "Inbox",
