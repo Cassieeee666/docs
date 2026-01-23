@@ -7,10 +7,6 @@
     "light": "#E6E4FF",
     "dark": "#2a2a2a"
   },
-  "favicon": {
-    "light": "/images/SOLVEA_LOGO+WORDMARK.svg",
-    "dark": "/images/SOLVEA_LOGO+WORDMARK.svg"
-  },
   "navigation": {
     "global": {
       "anchors": [
@@ -245,8 +241,5 @@
      "cursor",
      "vscode"
    ]
-  },
-  "background": {
-    "decoration": "grid"
   }
 }
