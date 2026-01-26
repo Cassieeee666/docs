@@ -25,7 +25,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
+              "in",
               "quickstart",
               "development"
             ]
@@ -59,7 +59,7 @@
       {
         "tab": "Documentation",
         "pages": [
-          "welcome",
+          "index",
           {
             "group": "Get started",
             "pages": [
