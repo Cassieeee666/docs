@@ -214,7 +214,7 @@
     ]
   },
   "logo": {
-    "light": "/images/SOLVEA_LOGO+WORDMARK.svg",
+    "light": "/images/SOLVEA_LOGO+WORDMARK 2.svg",
     "dark": "/images/Solvea logo white.svg"
   },
   "navbar": {
@@ -242,5 +242,5 @@
      "vscode"
    ]
   },
-  "favicon": "/images/SOLVEA_LOGO.svg"
+  "favicon": "/images/SOLVEA_LOGO 2.svg"
 }
