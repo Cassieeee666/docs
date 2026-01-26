@@ -76,7 +76,6 @@
                 "pages": [
                   "agent/overview",
                   "agent/create",
-                  "documentation/build/agent/edit-agent-profile",
                   "agent/set-up-skills"
                 ]
               },
