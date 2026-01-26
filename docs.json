@@ -75,7 +75,7 @@
                 "icon": "headset",
                 "pages": [
                   "agent/overview",
-                  "documentation/build/agent/create-an-agent",
+                  "agent/create",
                   "documentation/build/agent/edit-agent-profile",
                   "documentation/build/agent/set-up-agent-skills"
                 ]
