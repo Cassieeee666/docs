@@ -1,4 +1,31 @@
 ---
 title: "Write a Skill Prompt"
+description: "A skill prompt defines how a skill thinks, decides, and acts."
 ---
 
+The prompt is the core of every skill. A well-written prompt can make a skill reliable and effective, while a poorly written one can break not only the skill, but the entire agent.
+
+This guide shows how to use **structured prompt engineering** to build skills that behave consistently and perform tasks correctly.
+
+<Tip>
+  To see examples, explore prompts used in Skill Square templates.
+</Tip>
+
+## Structure Your Prompt
+
+Avoid putting all instructions into a single block of text.\
+Using a **modular structure** helps the AI model clearly understand its role, scope, and boundaries.
+
+We recommend organizing every skill prompt into three core sections:
+
+- **Role: **Define what responsibility the skill holds.
+- **Tasks: **Describe the step-by-step workflow the skill should follow to complete its job.
+- **Rules: **Set constraints, priorities, and edge-case handling to prevent unwanted behavior.
+
+```
+# Role
+
+# Tasks
+
+# Rules
+```
