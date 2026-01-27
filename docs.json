@@ -85,7 +85,7 @@
                 "pages": [
                   "skill/overview",
                   "skill/skill-square",
-                  "documentation/build/skill/create-a-skill/create-a-skill-from-scratch",
+                  "skill/create-new",
                   "documentation/build/skill/configure-skills/write-a-skill-prompt"
                 ]
               },
