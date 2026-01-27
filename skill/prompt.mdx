@@ -37,3 +37,32 @@ You are a assistant for... You are responsible for handling...
 1. You should...
 2. Never...
 ```
+
+## Write Tasks as a Process
+
+When writing the **Tasks** section, think like a developer designing logic.
+
+Break execution into clear steps and use structured flows. Numbered steps and conditional logic (If / Else) significantly improve reasoning accuracy and execution stability.
+
+Task example:
+
+```
+# Tasks
+
+## Task1: Appointment Scheduling
+
+1. Extract user’s name and desired appointment time slot from the message.
+
+2. Ask for Missing Information(If Needed)
+- If the user has provided both name and desired time slot, skip this step and proceed to Step 3.
+- If the user has provided only one piece of information or none, politely ask the user to supplement the missing details.
+
+3. Check Availability via google_calendar
+- If user’s slot is within available time, Proceed to Step 4.
+- If conflict, Reply exactly: "The selected time slot is unavailable due to a conflict. Please confirm a new time slot."
+  - Re-run Step 3 if user provides a new time slot.
+
+4. Call google_calendar to add the confirmed time slot linked to the user’s name, then send a booking confirmation.
+```
+
+## **Recommendations**
