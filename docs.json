@@ -83,8 +83,8 @@
                 "group": "Skill",
                 "icon": "wrench",
                 "pages": [
-                  "documentation/build/skill/skill-overview",
-                  "documentation/build/skill/create-a-skill/choose-from-skill-library",
+                  "skill/overview",
+                  "skill/skill-square",
                   "documentation/build/skill/create-a-skill/create-a-skill-from-scratch",
                   "documentation/build/skill/configure-skills/write-a-skill-prompt"
                 ]
