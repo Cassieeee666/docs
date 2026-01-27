@@ -18,14 +18,22 @@ Using a **modular structure** helps the AI model clearly understand its role, sc
 
 We recommend organizing every skill prompt into three core sections:
 
-- **Role: **Define what responsibility the skill holds.
-- **Tasks: **Describe the step-by-step workflow the skill should follow to complete its job.
-- **Rules: **Set constraints, priorities, and edge-case handling to prevent unwanted behavior.
+- **Role:** Define what responsibility the skill holds.
+- **Tasks:** Describe the step-by-step workflow the skill should follow to complete its job.
+- **Rules:** Set constraints, priorities, and edge-case handling to prevent unwanted behavior.
 
 ```
 # Role
+You are a assistant for... You are responsible for handling...
 
 # Tasks
+## Task1:...
+1.
+2.
+## Task2:...
+1.
 
 # Rules
+1. You should...
+2. Never...
 ```
