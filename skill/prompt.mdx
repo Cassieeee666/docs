@@ -66,3 +66,24 @@ Task example:
 ```
 
 ## **Recommendations**
+
+- **Be Specific and Detailed**\
+  Avoid vague instructions. Clearly define context, expected output, tone, format, and length.
+
+  | ❌                                  | ✅                                                                                                               |
+  | ---------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+  | Ask the user for appointment time. | Ask the user for 15-min dental checkup time slot (Mon-Fri 9AM–5PM, 30-min intervals only) in 1 polite sentence. |
+- **Use Positive Guidance**\
+  Instead of telling the agent what _not_ to do, tell it what it _should_ do.\
+  This keeps the model focused on the desired behavior.
+
+  | ❌                              | ✅                                                                  |
+  | ------------------------------ | ------------------------------------------------------------------ |
+  | Don’t ask for irrelevant info. | Ask only for guest name, check-in date, and desired spa time slot. |
+- **Provide Few-Shot Examples**\
+  Include 1–2 complete examples of ideal user–agent interactions.\
+  This helps the model learn tone, structure, and response length through imitation.
+- **Emphasize Critical Instructions**\
+  For extremely important rules or steps, use **UPPERCASE** to draw attention.
+- **Write in English When Possible**\
+  While Solvea supports multiple languages, English prompts currently achieve the highest instruction-following accuracy and reasoning quality.
