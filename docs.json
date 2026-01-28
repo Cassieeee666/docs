@@ -148,7 +148,6 @@
                 "group": "Tools",
                 "pages": [
                   "documentation/deploy/tools/google-sheet",
-                  "documentation/deploy/tools/google-calendar",
                   "documentation/deploy/tools/logistics-tracking"
                 ]
               },
