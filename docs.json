@@ -117,7 +117,7 @@
           {
             "group": "Deploy",
             "pages": [
-              "documentation/deploy/deploy-overview",
+              "deploy/overview",
               {
                 "group": "Channels",
                 "pages": [
@@ -127,11 +127,11 @@
                       {
                         "group": "Configuration",
                         "pages": [
-                          "documentation/deploy/channels/livechat/configuration/appearance-and-personalization",
-                          "documentation/deploy/channels/livechat/configuration/trigger-configuration"
+                          "deploy/livechat/configuration/appearance-and-personalization",
+                          "deploy/livechat/configuration/trigger-configuration"
                         ]
                       },
-                      "documentation/deploy/channels/livechat/install-and-lauch-livechat"
+                      "deploy/livechat/install-livechat"
                     ]
                   },
                   {
