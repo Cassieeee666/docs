@@ -141,7 +141,7 @@
                       "deploy/phone/manage-phone-numbers"
                     ]
                   },
-                  "documentation/deploy/channels/email"
+                  "deploy/email"
                 ]
               },
               {
