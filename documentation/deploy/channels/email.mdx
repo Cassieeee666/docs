@@ -1,4 +1,59 @@
 ---
-title: 'Email'
+title: "Email"
+description: "Bind an email account to allow your Solvea Agent to receive and respond to emails automatically."
 ---
 
+## Getting Started
+
+1. Enter your email address and click **Continue**.
+2. Complete the authorization process.
+
+## Authorization Methods
+
+Solvea supports **three authorization methods**, each with different characteristics:
+
+| Authorization Method | Advantages                                                          | Disadvantages                                                     |
+| -------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **API**              | Simple and fast to set up                                           | Sync and sending speed are limited by the email service provider. |
+| **Forwarding**       | New emails are synced within minutes for near real-time processing. | Requires manual setup.                                            |
+| **IMAP/SMTP**        | Highly stable with a 10-minute email sync delay.                    | Requires manual configuration.                                    |
+
+### **Steps**
+
+<Tabs>
+  <Tab title="API Authorization ">
+    One-click authorization via your email provider.
+
+    **Steps:**
+
+    1. Click the authorization button.
+    2. You will be redirected to your email provider.
+    3. Confirm access to complete the authorization.
+  </Tab>
+  <Tab title="Forwarding Authorization">
+    This method forwards incoming emails to Solvea for processing.
+
+    **Steps:**
+
+    1. Copy the forwarding email address provided by Solvea.
+    2. Open your email client and locate the forwarding settings.
+    3. Paste the copied address into the **“Forward to”** email field.
+    4. Return to this page and click **Verify Email** (bottom-right) to complete authorization.
+
+    📌 Example: _Set up Gmail forwarding_
+  </Tab>
+  <Tab title="IMAP / SMTP Authorization">
+    This method connects Solvea directly to your mailbox.
+
+    **Steps:**
+
+    1. Enable IMAP/SMTP in your email client.
+    2. Generate an email authorization code.
+    3. Return to this page and enter:
+       - Authorization code
+       - IMAP/SMTP server configuration
+    4. Click **Confirm** to complete the authorization.
+  </Tab>
+</Tabs>
+
+📌 Example: _Set up Gmail IMAP/SMTP_
