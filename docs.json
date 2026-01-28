@@ -147,14 +147,14 @@
               {
                 "group": "Tools",
                 "pages": [
-                  "documentation/deploy/tools/google-sheet",
-                  "documentation/deploy/tools/logistics-tracking"
+                  "deploy/tools/google-tool",
+                  "deploy/tools/logistics-tracking"
                 ]
               },
               {
                 "group": "E-commerce Platform",
                 "pages": [
-                  "documentation/deploy/e-commerce-platform/shopify"
+                  "deploy/e-commerce-platform/shopify"
                 ]
               }
             ]
