@@ -137,8 +137,8 @@
                   {
                     "group": "Phone&SMS",
                     "pages": [
-                      "documentation/deploy/channels/phone-and-sms/twilio",
-                      "documentation/deploy/channels/phone-and-sms/sip"
+                      "deploy/phone/add-phone-numbers",
+                      "deploy/phone/manage-phone-numbers"
                     ]
                   },
                   "documentation/deploy/channels/email"
