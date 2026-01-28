@@ -117,6 +117,7 @@
           {
             "group": "Deploy",
             "pages": [
+              "documentation/deploy/deploy-overview",
               {
                 "group": "Channels",
                 "pages": [
