@@ -106,7 +106,8 @@
                   {
                     "group": "Email",
                     "pages": [
-                      "deploy/email"
+                      "deploy/email",
+                      "documentation/deploy/channels/email/untitled-page"
                     ]
                   }
                 ]
