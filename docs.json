@@ -103,7 +103,12 @@
                       "deploy/phone/manage-phone-numbers"
                     ]
                   },
-                  "deploy/email"
+                  {
+                    "group": "Email",
+                    "pages": [
+                      "deploy/email"
+                    ]
+                  }
                 ]
               },
               {
