@@ -130,7 +130,6 @@
             "group": "Inbox",
             "pages": [
               "documentation/inbox/inbox-overview",
-              "documentation/inbox/tickets-classification",
               "documentation/inbox/read-tickets",
               "documentation/inbox/handle-tickets"
             ]
