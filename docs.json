@@ -21,7 +21,6 @@
       {
         "tab": "Documentation",
         "pages": [
-          "index",
           {
             "group": "Get started",
             "pages": [
@@ -130,7 +129,7 @@
             "group": "Inbox",
             "pages": [
               "inbox/inbox-overview",
-              "inbox/read-ticket",
+              "index",
               "documentation/inbox/untitled-page-1"
             ]
           },
