@@ -106,8 +106,7 @@
                   {
                     "group": "Email",
                     "pages": [
-                      "deploy/email",
-                      "deploy/email/gmail-authorization"
+                      "deploy/email"
                     ]
                   }
                 ]
