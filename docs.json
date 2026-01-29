@@ -107,7 +107,7 @@
                     "group": "Email",
                     "pages": [
                       "deploy/email",
-                      "documentation/deploy/channels/email/untitled-page"
+                      "deploy/email/gmail-authorization"
                     ]
                   }
                 ]
