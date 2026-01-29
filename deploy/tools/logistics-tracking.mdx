@@ -2,3 +2,30 @@
 title: "Logistics Tracking"
 ---
 
+The Logistics Inquiry tool allows your Agent to retrieve shipment details using a tracking number.
+
+## Authorization
+
+<Info>
+  No authorization required. The tool is ready to use out of the box.
+</Info>
+
+## Supported information
+
+- **Tracking number**: If an order has multiple tracking numbers, each will be displayed separately
+- **Latest status**: Current shipment status (e.g. in transit, delayed)
+- **Latest update time**: Timestamp of the most recent logistics event
+- **First update time**: Timestamp of the initial logistics event
+- **Latest country**: Country of the most recent logistics scan
+- **Origin country**: Country of the first logistics scan
+
+**Typical use cases**
+
+- Order tracking inquiries
+- Post-purchase customer support
+
+You can invoke the Logistics Inquiry tool directly inside a Skill prompt using the tracking number provided by the customer.
+
+```
+Use all of the tracking numbers to call logistics_inquiry_tool, to...
+```
