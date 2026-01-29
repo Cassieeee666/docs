@@ -129,7 +129,9 @@
           {
             "group": "Inbox",
             "pages": [
-              "inbox/inbox-overview"
+              "inbox/inbox-overview",
+              "documentation/inbox/untitled-page",
+              "documentation/inbox/untitled-page-1"
             ]
           },
           {
