@@ -130,7 +130,7 @@
             "group": "Inbox",
             "pages": [
               "inbox/inbox-overview",
-              "documentation/inbox/untitled-page",
+              "inbox/read-ticket",
               "documentation/inbox/untitled-page-1"
             ]
           },
