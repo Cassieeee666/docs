@@ -2,3 +2,68 @@
 title: "Google Tool"
 ---
 
+Solvea integrates with Google Calendar and Google Sheets to enhance your Agent’s scheduling, data access, and task execution capabilities—especially for appointment booking skils.
+
+## Google Sheets
+
+Use Google Sheets to let your Agent read from and write to spreadsheets.
+
+**Supported capabilities**
+
+- Access spreadsheet data
+- Edit and update spreadsheet content
+
+**Typical use cases**
+
+- Store booking records
+- Update customer or appointment lists
+- Read structured business data during conversations
+
+You can invoke Google Sheets directly inside a Skill prompt, for example:
+
+```
+call google_sheet_tool to
+```
+
+## Google Calendar
+
+Google Calendar enables your Agent to manage schedules and availability automatically.
+
+**Supported capabilities**
+
+- **Create events**: Add new appointments to your calendar
+- **Delete events**: Cancel existing calendar events
+- **Update events**: Modify time, location, or event details
+- **Check availability**: Identify busy time slots and available periods
+
+**Typical use cases**
+
+- Appointment booking
+- Rescheduling or cancellation
+- Availability checks before confirming bookings
+
+You can invoke Google Calendar actions directly inside a Skill prompt, for example:
+
+```
+call googel_calendar_tool to
+```
+
+### **Authorization**
+
+Before using Google Calendar or Google Sheets, you must authorize your Google account.
+
+**Authorization steps**
+
+<Steps>
+  <Step>
+    Click **Add**.
+  </Step>
+  <Step>
+    Complete the Google authorization flow and click **Continue**.
+  </Step>
+  <Step>
+    Select the files or calendars you want Solvea to access.  (for google sheet tool)
+  </Step>
+</Steps>
+
+Once authorized, the Agent can use these tools based on the permissions you grant.
