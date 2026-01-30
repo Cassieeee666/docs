@@ -151,7 +151,10 @@
         ]
       },
       {
-        "tab": "Changelog"
+        "tab": "Changelog",
+        "pages": [
+          "changelog/changelog"
+        ]
       },
       {
         "tab": "Academy"
