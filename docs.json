@@ -66,8 +66,7 @@
                 "group": "Add Knowledge",
                 "pages": [
                   "knowledge/add-sources",
-                  "knowledge/sync-from-e-commerce-platforms",
-                  "knowledge/sync-from-helpdesk"
+                  "knowledge/sync-from-e-commerce-platforms"
                 ]
               },
               "knowledge/manage"
