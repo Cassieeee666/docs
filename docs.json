@@ -34,7 +34,6 @@
             "pages": [
               {
                 "group": "Agent",
-                "icon": "headset",
                 "pages": [
                   "agent/overview",
                   "agent/create",
@@ -43,7 +42,6 @@
               },
               {
                 "group": "Skill",
-                "icon": "wrench",
                 "pages": [
                   "skill/overview",
                   "skill/skill-square",
@@ -53,7 +51,6 @@
               },
               {
                 "group": "Train & Test",
-                "icon": "arrows-repeat",
                 "pages": [
                   "documentation/build/train-and-test/train",
                   "documentation/build/train-and-test/test"
