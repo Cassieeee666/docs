@@ -137,9 +137,7 @@
           {
             "group": "Contacts",
             "pages": [
-              "documentation/contacts/contact-overview",
-              "documentation/contacts/manage-contacts",
-              "documentation/contacts/import-contacts"
+              "documentation/contacts/contact-overview"
             ]
           },
           {
