@@ -37,7 +37,8 @@
                 "pages": [
                   "agent/overview",
                   "agent/create",
-                  "agent/edit-agent-profile"
+                  "agent/edit-agent-profile",
+                  "documentation/build/train-and-test/train"
                 ]
               },
               {
@@ -52,7 +53,6 @@
               {
                 "group": "Train & Test",
                 "pages": [
-                  "documentation/build/train-and-test/train",
                   "documentation/build/train-and-test/test"
                 ]
               }
