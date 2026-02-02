@@ -38,7 +38,7 @@
                   "agent/overview",
                   "agent/create",
                   "agent/edit-agent-profile",
-                  "build/agent/train-and-test"
+                  "agent/train-and-test"
                 ]
               },
               {
