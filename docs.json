@@ -87,7 +87,8 @@
                   {
                     "group": "Email",
                     "pages": [
-                      "deploy/email"
+                      "deploy/email",
+                      "deploy/email/gmail-authorization"
                     ]
                   }
                 ]
