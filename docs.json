@@ -171,5 +171,10 @@
      "vscode"
    ]
   },
-  "favicon": "/images/SOLVEA_LOGO 2.svg"
+  "favicon": "/images/SOLVEA_LOGO 2.svg",
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/Q6D5U8GJvE"
+    }
+  }
 }
