@@ -50,9 +50,8 @@
               {
                 "group": "Add Knowledge",
                 "pages": [
-                  "knowledge/sync-from-platforms",
                   "knowledge/add-sources",
-                  "knowledge/sync-from-e-commerce-platforms"
+                  "knowledge/sync-from-platforms"
                 ]
               },
               "knowledge/manage"
