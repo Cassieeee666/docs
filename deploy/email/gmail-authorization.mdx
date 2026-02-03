@@ -64,12 +64,53 @@ This method allows Solvea to receive emails via Gmail forwarding.
 
 <Steps>
   <Step title="Enable IMAP in Gmail">
-    
+    - Open Gmail and go to **Settings** → **See all settings**.
+
+      <Frame>
+        ![Gmailseeallsettings](/gmailseeallsettings.png)
+      </Frame>
+    - Navigate to **Forwarding and POP/IMAP**.
+    - Enable **IMAP Access** and Click **Save Changes**.
+
+      <Frame>
+        ![Startimap](/startimap.png)
+      </Frame>
   </Step>
-  <Step title="">
-    
+  <Step title="Enable Google Two-Step Verification">
+    - Go to your Google Account Security Center:\
+      https://myaccount.google.com/
+    - Open **Security** settings and find **2-Step Verification**.
+
+      <Frame>
+        ![2stepsverification](/images/2stepsverification.png)
+      </Frame>
+    - Enable two-step verification.
+
+      <Frame>
+        ![Enablestepverification](/images/enablestepverification.png)
+      </Frame>
   </Step>
-  <Step title="">
-    
+  <Step title="Generate an App Password">
+    - In the Security page, search for **App Passwords**, or visit:\
+      https://myaccount.google.com/apppasswords
+    - Enter any name for the app and Click **Create**.
+
+      <Frame>
+        ![Createapp](/images/createapp.png)
+      </Frame>
+    - Copy the generated app password.
+
+      <Frame>
+        ![Generatedapplicationpassword](/images/generatedapplicationpassword.png)
+      </Frame>
+  </Step>
+  <Step title="Complete IMAP / SMTP Setup">
+    - Return to the Solvea email authorization page.
+    - Paste the generated **App Password** into the authorization field.
+    - Click **Verify** to complete the setup.
+
+      <Frame>
+        ![Setimap](/images/setimap.png)
+      </Frame>
   </Step>
 </Steps>
