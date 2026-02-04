@@ -175,7 +175,9 @@
   "favicon": "/images/SOLVEA_LOGO 2.svg",
   "footer": {
     "socials": {
-      "discord": "https://discord.gg/Q6D5U8GJvE"
+      "discord": "https://discord.gg/Q6D5U8GJvE",
+      "x": "https://x.com/SolveaCX",
+      "linkedin": "https://www.linkedin.com/company/solvea-cx"
     }
   }
 }
