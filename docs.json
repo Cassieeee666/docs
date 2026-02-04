@@ -111,6 +111,7 @@
           {
             "group": "Inbox",
             "pages": [
+              "inbox/read-tickets",
               "inbox/inbox-overview",
               "documentation/inbox/read-tickets",
               "documentation/inbox/handle-tickets"
