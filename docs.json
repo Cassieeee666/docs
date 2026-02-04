@@ -113,7 +113,6 @@
             "pages": [
               "inbox/inbox-overview",
               "inbox/read-tickets",
-              "documentation/inbox/read-tickets",
               "documentation/inbox/handle-tickets"
             ]
           },
