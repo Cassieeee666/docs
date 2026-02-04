@@ -95,17 +95,22 @@ You can reference tools, knowledge sources, and handoff actions directly in the 
 This allows the agent to:
 
 - Retrieve knowledge
-- Call tools
 - Transfer to a human agent
+- Call tools
 
-Example:
+Prompt Example：
 
-## Optimize with AI Assistant
+```
+# Retrieve knowledge
+- call retrieve_knowledge tool to answer customer's inquiries.
 
-Click the **AI Assistant** button in the top-right corner of the prompt editor.
+# Transfer to a human agent
+- 
 
-The AI assistant can:
-
-- Refine prompt structure
-- Improve clarity and logic
-- Optimize expression
+# Call Tools
+- use all of the tracking numbers to call logistics_inquiry tool to get the logistics details.
+- use the order number to call shopify tool to get the tracking numbers of the order
+- call google_calendar tool to add the event.
+- call google_calendar tool to check if the time slot is available
+- call google_sheet tool to retrieve the file "xx" and add a new row to the sheet.
+```
