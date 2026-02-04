@@ -9,15 +9,19 @@ Click **Add New Skill** to begin creating a skill from scratch.
 
 ## Step 2: Define Basic Information
 
-Set the **skill name , icon** and select the **service type**.
+Set the **skill name , icon** and select the **Application channel**.
 
-- Email
-- Livechat
-- Inbound Voice
+- **Email Skills:** Suitable for handling customer complaints received via the Email channel.
+- **Livechat Skills:** Suitable for handling real-time conversations from the Livechat channel.
+- **Inbound Voice:** Suitable for handling incoming phone calls.
 
 <Note>
-  Different service types include different configuration options.
+  Skills of different channels include different configuration options. For details, please refer to **Step 4**.
 </Note>
+
+<Frame>
+  ![Image](/images/image-14.png)
+</Frame>
 
 ## Step 3: Configure Common Settings
 
@@ -27,22 +31,47 @@ Complete the shared configuration for all skill types:
 
   Define the conditions under which the skill should be triggered.
 
-  For example: "When the user expresses that he want to book an appointment."
+  For example: _"When the customer asks about the order logistics status, like when the order will be shipped, where the package is currently, etc."_
+
+  <Frame>
+    ![Agent Whentouse](/agent-whentouse.png)
+  </Frame>
 - **Prompt**
 
   Write a structured skill prompt to define behavior and task logic.
 
-  Use "`/`" to insert knowledge references, tools, or handoff actions.
+  Use "`/`" to insert knowledge references, handoff actions, or tools.
 
   <Tip>
     Want to learn how to write a perfect prompt? See [Write a Skill Prompt](/skill/prompt)
   </Tip>
-- **Knowledge Access**
-
-  Enable knowledge-based responses and select the knowledge scope.
+  <Frame>
+    ![Writeskillprompt](/writeskillprompt.png)
+  </Frame>
 - **Tools**
 
-  Add required tools and complete authorization.
+  Add required tools and click **"Connect"** to complete authorization. You can add the following 5 tools:
+  - **Logistics_inquiry:** Get logistics information with tracking numbers.
+  - **google_calendar: **Check availability, as well as creating, editing, and deleting events.
+  - **google_sheet:** This tool allows reading and writing data to spreadsheets.
+  - **send_email: **Send Emails
+  - **shopify: **Retrieve detailed order information using the order number, including tracking numbers, product details, and more.
+
+  <Note>
+    All tools except the logistics_inquiry tool need authorization—just follow the guide to jump and complete it in one click.
+
+    See [Deploy Overview](/deploy/overview) for tool details.
+  </Note>
+  <Frame>
+    ![Image](/images/image-17.png)
+  </Frame>
+- **Knowledge Access**
+
+  Enable knowledge-based responses and add "**retrieve_knowledge**" tool in the Prompt.
+
+  <Frame>
+    ![Skill Add Knowledge](/skill-add-knowledge.png)
+  </Frame>
 
 ## Step 4: Configure Channel-Specific Settings
 
@@ -53,6 +82,10 @@ Complete settings based on the skill type.
     - **Response Format**
 
       Customize the email opening and closing format.
+
+      <Frame>
+        
+      </Frame>
   </Tab>
   <Tab title="Livechat">
     - **AI→human Handoff Script**
@@ -75,7 +108,9 @@ Complete settings based on the skill type.
 
       Set the **idle reminder trigger time**. If the AI’s response generation exceeds the specified threshold, it will automatically send a comfort message to calm callers.
 
-      ### 
+      <Frame>
+        ### 
+      </Frame>
   </Tab>
 </Tabs>
 
