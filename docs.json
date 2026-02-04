@@ -126,7 +126,7 @@
             "group": "Analytics",
             "pages": [
               "documentation/analytics/analytics-overview",
-              "documentation/analytics/untitled-page",
+              "analytics/statistics",
               "documentation/analytics/topic-insights"
             ]
           }
