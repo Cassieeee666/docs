@@ -52,10 +52,10 @@ Complete the shared configuration for all skill types:
 
   Add required tools and click **"Connect"** to complete authorization. You can add the following 5 tools:
   - **Logistics_inquiry:** Get logistics information with tracking numbers.
-  - **google_calendar: **Check availability, as well as creating, editing, and deleting events.
+  - **google_calendar:** Check availability, as well as creating, editing, and deleting events.
   - **google_sheet:** This tool allows reading and writing data to spreadsheets.
-  - **send_email: **Send Emails
-  - **shopify: **Retrieve detailed order information using the order number, including tracking numbers, product details, and more.
+  - **send_email:** Send Emails
+  - **shopify:** Retrieve detailed order information using the order number, including tracking numbers, product details, and more.
 
   <Note>
     All tools except the logistics_inquiry tool need authorization—just follow the guide to jump and complete it in one click.
@@ -83,8 +83,11 @@ Complete settings based on the skill type.
 
       Customize the email opening and closing format.
 
+      <Note>
+        Use `${customer_name!'Customer'}` to insert the AI-extracted customer name into your greeting.
+      </Note>
       <Frame>
-        
+        ![Skill Email](/skill-email.png)
       </Frame>
   </Tab>
   <Tab title="Livechat">
@@ -92,6 +95,9 @@ Complete settings based on the skill type.
 
       Set up different handoff templates based on whether human agents are **in service hours.**
 
+      <Frame>
+        ![Livechatskill](/images/livechatskill.png)
+      </Frame>
       <Tip>
         How to set handoff time period? See [Edit Agent Profile -\> AI Handoff Schedule](/agent/edit-agent-profile)
       </Tip>
@@ -107,10 +113,6 @@ Complete settings based on the skill type.
     - **Idle reminder**
 
       Set the **idle reminder trigger time**. If the AI’s response generation exceeds the specified threshold, it will automatically send a comfort message to calm callers.
-
-      <Frame>
-        ### 
-      </Frame>
   </Tab>
 </Tabs>
 
@@ -121,3 +123,7 @@ Click **Save** to store the skill.
 <Warning>
   To make the skill active in production, please “publish” the agent. Changes will only take effect after the agent is published.
 </Warning>
+
+<Frame>
+  ![Skillsave](/images/skillsave.png)
+</Frame>
