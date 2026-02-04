@@ -119,7 +119,7 @@
           {
             "group": "Contacts",
             "pages": [
-              "documentation/contacts/contact-overview"
+              "contacts/contact-overview"
             ]
           },
           {
