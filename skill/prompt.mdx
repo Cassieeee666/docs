@@ -95,7 +95,7 @@ You can reference tools, knowledge sources, and handoff actions directly in the 
 This allows the agent to:
 
 - Retrieve knowledge
-- Transfer to a human agent
+- Handoff to a human agent. (reason and action are required) 
 - Call tools
 
 Prompt Example：
@@ -104,8 +104,8 @@ Prompt Example：
 # Retrieve knowledge
 - call retrieve_knowledge tool to answer customer's inquiries.
 
-# Transfer to a human agent
-- 
+# Handoff to a human agent
+- When the customer still cannot provide order number ,pleasse call Only Handoff.
 
 # Call Tools
 - use all of the tracking numbers to call logistics_inquiry tool to get the logistics details.
