@@ -157,7 +157,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://solvea.cx/"
+      "href": "https://app.solvea.cx"
     }
   },
   "contextual": {
