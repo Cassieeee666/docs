@@ -45,7 +45,9 @@
           },
           {
             "group": "Build new",
-            "pages": []
+            "pages": [
+              "untitled-page"
+            ]
           },
           {
             "group": "Learn",
