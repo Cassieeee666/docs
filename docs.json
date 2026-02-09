@@ -48,7 +48,7 @@
             "pages": [
               "untitled-page",
               {
-                "group": "Build your Agents",
+                "group": "Build Agents",
                 "pages": [
                   "agent/build-agent-with-ai",
                   "agent/build-agent-with-template",
