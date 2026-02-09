@@ -50,10 +50,14 @@
               {
                 "group": "Build your Agents",
                 "pages": [
-                  "build-agent-with-ai",
-                  "build-agent-with-template"
+                  "agent/build-agent-with-ai",
+                  "agent/build-agent-with-template",
+                  "agent/my-agents"
                 ]
-              }
+              },
+              "agent/configure-your-agent",
+              "agent/testing-and-training",
+              "agent/advanced-write-an-agent"
             ]
           },
           {
