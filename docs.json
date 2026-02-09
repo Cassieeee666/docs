@@ -46,7 +46,14 @@
           {
             "group": "Build new",
             "pages": [
-              "untitled-page"
+              "untitled-page",
+              {
+                "group": "Build your Agents",
+                "pages": [
+                  "build-agent-with-ai",
+                  "build-agent-with-template"
+                ]
+              }
             ]
           },
           {
