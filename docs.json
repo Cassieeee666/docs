@@ -44,6 +44,10 @@
             ]
           },
           {
+            "group": "Build1",
+            "pages": []
+          },
+          {
             "group": "Learn",
             "pages": [
               "knowledge/overview",
