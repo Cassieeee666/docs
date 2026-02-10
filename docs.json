@@ -46,7 +46,7 @@
           {
             "group": "Build new",
             "pages": [
-              "untitled-page",
+              "agent/overview",
               {
                 "group": "Build Agents",
                 "pages": [
