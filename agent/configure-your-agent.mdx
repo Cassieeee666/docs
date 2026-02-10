@@ -1,10 +1,146 @@
 ---
-title: "Configure your Agent"
+title: "Configure Agent"
 ---
+
+## Profile
+
+### Name and Avatar
+
+Upload an avatar and set the agent’s name.
+
+<Info>
+  We recommend using your business or brand name as the agent's name.
+</Info>
+
+### Channels
+
+By default, an AI agent can handle conversations via **Voice.**\
+You can assign a phone number and configure the agent’s voice directly from the Agent page.
+
+<Frame>
+  ![Image](/images/image-69.png)
+</Frame>
+
+You can:
+
+<Steps>
+  <Step title="Set the agent’s phone">
+    Assign a phone number to your agent so customers can reach it via voice calls.
+
+    Learn more: [How to add a phone number](/deploy/phone/add-phone-numbers)
+
+    <Warning>
+      New users receive a free phone number valid for 7 days.\
+      Please purchase or add your own phone number before it expires to avoid service interruption.
+    </Warning>
+  </Step>
+  <Step title="Set the agent’s language and voice">
+    We offer voices in various languages and genders. Select a voice, then adjust the sound settings.
+
+    <Columns cols={2}>
+      <Card>
+        ![Image](/images/image-71.png)
+      </Card>
+      <Card title="">
+        ![Image](/images/image-72.png)
+      </Card>
+    </Columns>
+  </Step>
+  <Step title="Configure a transfer phone number">
+    This is the human agent’s number that the AI calls when it cannot resolve an issue and needs live support.
+  </Step>
+</Steps>
+
+<Tip>
+  **Solvea agents can also handle Email and Chat.**
+
+  Go to the Deploy Module to connect additional channels.
+
+  Learn more: [Set up Livechat](/deploy/livechat/install-livechat) ; [Connect Email](/deploy/email)
+</Tip>
+
+### AI Handoff Schedule
+
+Define when your AI agent should transfer calls to a human agent.
+
+During the selected time period, the AI will proactively handoff conversations to live support.
+
+<Frame>
+  ![Image](/images/image-73.png)
+</Frame>
+
+Steps:
+
+<Steps>
+  <Step title="">
+    Select the **time zone** for handoff
+
+    <Frame>
+      ![Image](/images/image-12.png)
+    </Frame>
+  </Step>
+  <Step title="">
+    Define the **handoff time range**
+
+    <Frame>
+      <img
+        src="/images/image-13.png"
+        alt="Image"
+        style={{ width:"100%" }}
+      />
+    </Frame>
+  </Step>
+</Steps>
+
+## Functions
+
+### Prompt
+
+Write a structured agent prompt to define behavior and task logic.
+
+Use "`/`" to insert knowledge references, handoff actions, or tools.
+
+<Tip>
+  Want to learn how to write a perfect prompt? See write an agent prompt
+</Tip>
+
+<Frame>
+  ![Writeskillprompt](/writeskillprompt.png)
+</Frame>
+
+### Tools
+
+Add required tools and click **"Connect"** to complete authorization. You can add the following 5 tools:
+
+- **Logistics_inquiry:** Get logistics information with tracking numbers.
+- **google_calendar:** Check availability, as well as creating, editing, and deleting events.
+- **google_sheet:** This tool allows reading and writing data to spreadsheets.
+- **send_email:** Send Emails
+- **shopify:** Retrieve detailed order information using the order number, including tracking numbers, product details, and more.
+
+<Note>
+  All tools except the logistics_inquiry tool need authorization—just follow the guide to jump and complete it in one click.
+
+  See [Deploy Overview](/deploy/overview) for tool details.
+</Note>
+
+<Frame>
+  ![Image](/images/image-17.png)
+</Frame>
+
+### Knowledge Access
+
+Enable knowledge-based responses and add "**retrieve_knowledge**" tool in the Prompt.
+
+<Frame>
+  ![Skill Add Knowledge](/skill-add-knowledge.png)
+</Frame>
+
+## Performance
 
 ## Agent Creation History
 
-In **Discovery Module**, you can view a complete record of all your previously created Agents for easy tracking, traceability, and iterative modifications.
+You can view a complete record of all your previously created Agents for easy tracking, traceability, and iterative modifications.
 
 - Click **History** in upper-right corner to access the full list of your historical Agents.
 - Agents labeled **Published** are the active versions running in your production environment.
