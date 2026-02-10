@@ -2,7 +2,7 @@
 title: "Configure Agent"
 ---
 
-After creating an agent, go to the **Agent **module to configure its profile, behavior, tools, and performance settings.
+After creating an agent, go to the **Agent** module to configure its profile, behavior, tools, and performance settings.
 
 Once configured and published, your AI agent will begin operating according to these settings.
 
@@ -110,8 +110,6 @@ Use "`/`" to insert knowledge references, handoff actions, or tools.
 
 All tools referenced in the prompt will appear in the **Tools** list.
 
-Some tools require you to click **Connect** to complete authorization before use.
-
 You can add the following 5 tools:
 
 - **Logistics_inquiry:** Get logistics information with tracking numbers.
@@ -119,6 +117,10 @@ You can add the following 5 tools:
 - **google_sheet:** This tool allows reading and writing data to spreadsheets.
 - **send_email:** Send Emails
 - **shopify:** Retrieve detailed order information using the order number, including tracking numbers, product details, and more.
+
+<Frame>
+  ![Image](/images/image-17.png)
+</Frame>
 
 Some tools require you to click **Connect** to complete authorization before use.
 
@@ -128,10 +130,6 @@ Some tools require you to click **Connect** to complete authorization before use
   See [Deploy Overview](/deploy/overview) for tool details.
 </Note>
 
-<Frame>
-  ![Image](/images/image-17.png)
-</Frame>
-
 ### Knowledge Access
 
 Enable knowledge-based responses and add "**retrieve_knowledge**" tool in the Prompt.
@@ -140,11 +138,30 @@ Enable knowledge-based responses and add "**retrieve_knowledge**" tool in the Pr
   ![Skill Add Knowledge](/skill-add-knowledge.png)
 </Frame>
 
-## Step3: Performance
+## Step3: Performance Settings
+
+Configure how the agent performs across different channels.
+
+<Tabs>
+  <Tab title="Voice & Chat">
+    - **Greeting Message**\
+      Customize the opening message for calls and chat conversations.
+  </Tab>
+  <Tab title="Email">
+    - **Response Format**\
+      Customize email opening and closing formats to match your brand tone.
+  </Tab>
+</Tabs>
 
 ## Step4: Save and Publish
 
-## Agent Creation History
+Click **Save** to publish the agent.
+
+All changes will immediately take effect, and the live agent will operate based on the latest published version.
+
+## Agent Version History
+
+Each time you click **Save**, a new agent version is created.
 
 You can view a complete record of all your previously created Agents for easy tracking, traceability, and iterative modifications.
 
