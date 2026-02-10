@@ -21,29 +21,6 @@
             ]
           },
           {
-            "group": "Build",
-            "pages": [
-              {
-                "group": "Agent",
-                "pages": [
-                  "11agent/overview",
-                  "11agent/create",
-                  "11agent/edit-agent-profile",
-                  "11agent/train-and-test"
-                ]
-              },
-              {
-                "group": "Skill",
-                "pages": [
-                  "11skill/overview",
-                  "11skill/skill-square",
-                  "11skill/create-new",
-                  "11skill/prompt"
-                ]
-              }
-            ]
-          },
-          {
             "group": "Build new",
             "pages": [
               "agent/overview",
