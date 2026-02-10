@@ -26,19 +26,19 @@
               {
                 "group": "Agent",
                 "pages": [
-                  "agent/overview",
-                  "agent/create",
-                  "agent/edit-agent-profile",
-                  "agent/train-and-test"
+                  "11agent/overview",
+                  "11agent/create",
+                  "11agent/edit-agent-profile",
+                  "11agent/train-and-test"
                 ]
               },
               {
                 "group": "Skill",
                 "pages": [
-                  "skill/overview",
-                  "skill/skill-square",
-                  "skill/create-new",
-                  "skill/prompt"
+                  "11skill/overview",
+                  "11skill/skill-square",
+                  "11skill/create-new",
+                  "11skill/prompt"
                 ]
               }
             ]
