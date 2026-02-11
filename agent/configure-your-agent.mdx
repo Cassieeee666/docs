@@ -6,6 +6,10 @@ After creating an agent, go to the **Agent** module to configure its profile, be
 
 Once configured and published, your AI agent will begin operating according to these settings.
 
+<Frame>
+  ![Image](/images/image-147.png)
+</Frame>
+
 ## Step1: Profile Settings
 
 ### Name and Avatar
@@ -16,13 +20,29 @@ Upload an avatar and set the agent’s name.
   We recommend using your business or brand name as the agent's name.
 </Info>
 
+<Frame>
+  <img
+    src="/images/image-141.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"70%" }}
+  />
+</Frame>
+
 ### Channels
 
 By default, an AI agent can handle conversations via **Voice.**\
 You can assign a phone number and configure the agent’s voice directly from the Agent page.
 
 <Frame>
-  ![Image](/images/image-69.png)
+  <img
+    src="/images/image-142.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"70%" }}
+  />
 </Frame>
 
 You can:
@@ -74,7 +94,13 @@ You can configure different handoff messages based on whether a human agent is o
 </Info>
 
 <Frame>
-  ![Image](/images/image-73.png)
+  <img
+    src="/images/image-143.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"65%" }}
+  />
 </Frame>
 
 Steps:
@@ -83,10 +109,30 @@ Steps:
   <Step title="Set the handoff schedule">
     - Select time zone
     - Define human online hours
+
+    <Frame>
+      <img
+        src="/images/image-144.png"
+        alt="Image"
+        title="Image"
+        className="mx-auto"
+        style={{ width:"65%" }}
+      />
+    </Frame>
   </Step>
   <Step title="Configure handoff scripts">
     - Message when human is online
     - Message when human is offline
+
+    <Frame>
+      <img
+        src="/images/image-145.png"
+        alt="Image"
+        title="Image"
+        className="mx-auto"
+        style={{ width:"65%" }}
+      />
+    </Frame>
   </Step>
 </Steps>
 
@@ -103,7 +149,27 @@ Use "`/`" to insert knowledge references, handoff actions, or tools.
 </Tip>
 
 <Frame>
-  ![Writeskillprompt](/writeskillprompt.png)
+  <img
+    src="/images/image-146.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"70%" }}
+  />
+</Frame>
+
+### Knowledge Access
+
+Enable knowledge-based responses and add "**retrieve_knowledge**" tool in the Prompt.
+
+<Frame>
+  <img
+    src="/images/image-148.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"70%" }}
+  />
 </Frame>
 
 ### Tools
@@ -114,12 +180,18 @@ You can add the following 5 tools:
 
 - **Logistics_inquiry:** Get logistics information with tracking numbers.
 - **google_calendar:** Check availability, as well as creating, editing, and deleting events.
-- **google_sheet:** This tool allows reading and writing data to spreadsheets.
-- **send_email:** Send Emails
+- **google_sheet:** This tool allows reading and editing spreadsheets.
+- **send_email:** Send emails to customer automatically.
 - **shopify:** Retrieve detailed order information using the order number, including tracking numbers, product details, and more.
 
 <Frame>
-  ![Image](/images/image-17.png)
+  <img
+    src="/images/image-149.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"70%" }}
+  />
 </Frame>
 
 Some tools require you to click **Connect** to complete authorization before use.
@@ -130,12 +202,14 @@ Some tools require you to click **Connect** to complete authorization before use
   See [Deploy Overview](/deploy/overview) for tool details.
 </Note>
 
-### Knowledge Access
-
-Enable knowledge-based responses and add "**retrieve_knowledge**" tool in the Prompt.
-
 <Frame>
-  ![Skill Add Knowledge](/skill-add-knowledge.png)
+  <img
+    src="/images/image-150.png"
+    alt="Image"
+    title="Image"
+    className="mx-auto"
+    style={{ width:"70%" }}
+  />
 </Frame>
 
 ## Step3: Performance Settings
@@ -146,10 +220,30 @@ Configure how the agent performs across different channels.
   <Tab title="Voice & Chat">
     - **Greeting Message**\
       Customize the opening message for calls and chat conversations.
+
+      <Frame>
+        <img
+          src="/images/image-151.png"
+          alt="Image"
+          title="Image"
+          className="mx-auto"
+          style={{ width:"75%" }}
+        />
+      </Frame>
   </Tab>
   <Tab title="Email">
     - **Response Format**\
       Customize email opening and closing formats to match your brand tone.
+
+      <Frame>
+        <img
+          src="/images/image-152.png"
+          alt="Image"
+          title="Image"
+          className="mx-auto"
+          style={{ width:"75%" }}
+        />
+      </Frame>
   </Tab>
 </Tabs>
 
@@ -158,6 +252,10 @@ Configure how the agent performs across different channels.
 Click **Save** to publish the agent.
 
 All changes will immediately take effect, and the live agent will operate based on the latest published version.
+
+<Frame>
+  ![Image](/images/image-153.png)
+</Frame>
 
 ## Agent Version History
 
