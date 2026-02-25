@@ -127,7 +127,8 @@
           {
             "group": "Account",
             "pages": [
-              "plans-and-pricing"
+              "account/plans-and-pricing",
+              "untitled-page"
             ]
           }
         ]
