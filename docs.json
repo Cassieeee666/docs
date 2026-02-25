@@ -123,6 +123,12 @@
               "analytics/statistics",
               "analytics/topic-insights"
             ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "plans-and-pricing"
+            ]
           }
         ]
       },
