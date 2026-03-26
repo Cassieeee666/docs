@@ -125,6 +125,10 @@
             ]
           },
           {
+            "group": "Outbound",
+            "pages": []
+          },
+          {
             "group": "Account",
             "pages": [
               "account/plans-and-pricing",
