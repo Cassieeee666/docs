@@ -150,7 +150,8 @@
       {
         "tab": "Academy",
         "pages": [
-          "for-beginners"
+          "for-beginners",
+          "for-features"
         ]
       }
     ]
